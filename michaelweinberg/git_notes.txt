@@ -1,0 +1,47 @@
+git add <file> Adds any changes inside <file> to the staging area
+git add * adds all files in to the staging area which are not denoted in the .gitignore file
+
+git reset HEAD <file> unstages a file
+
+git reset --hard will clear all contents of the staging area
+git reset <fileOrDirectory> will remove <fileOrDirectory> form the staging area
+
+	
+git commit -m '<message>' Commits the staging area to the repository with a <message>
+
+git clone <git_url> clones a git repository into your present working directory
+
+git pull <git_url> incorporates changes from a remote repository into the current branch
+
+git branch <branchname> creates a new branch with the name <branchname>
+	-d <branchname> deletes that branch
+
+git fetch <git_url> fetches data from a repository at <git_url>
+
+git push <remotename> <branchname> pushes your git commits on <branchname> to <remotename>
+
+git checkout <branchname> changes the head pointer to <branchname>
+
+git merge <branchname> merges <branchname> into current branch
+
+git status shows which files are staged for commit
+
+git init initializes a git repository in the present working directory
+
+git help <command> shows the manual for <command>
+
+git remote add <shortname> <git_url> adds a repository from <git_url>
+git remote add origin <git_url> 
+
+git log shows commit history for the current branch
+	adding -p shows the difference made between each commit
+	adding -<x> shows <x> number of commit entries
+
+git rm <fileOrDirectory> removes <fileOrDirectory> from the git repository
+
+git diff retrieves the difference between commits based on a variety of parameters
+
+
+ 
+
+

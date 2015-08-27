@@ -1,0 +1,60 @@
+sudo elevates user privileges to that of super user provided that user is in the wheel group
+
+cd <path> Changes the working directory to <path>
+	/ changes directory to root
+	.. up one level in the directory tree
+	~/<directory> changes to <directory> no matter where it exists in the directory structure
+
+ls <path> Lists the directory content of <path>
+
+	ls -la <path> List the full directory content with owner, group, permission octals, size in bytes and last modification
+
+nano is a text editor that I like better vim
+
+mkdir makes a new directory
+
+rm -rf <directory> removes a directory
+
+rm <filename> removes a file
+
+touch <filename> makes a new file
+
+chown <user>:<group> file.txt will change ownership of file.txt
+
+chown -R <user>:<group> myDirectory will change ownership of DIRECTORY and all files and directories inside of myDirectory
+
+chown -R <user>:<group> DIRECTORY/* will change ownership of all files and directories inside of myDirectory but will not change the ownership of myDirectory itself
+
+mv <firstDir> <secondDir> will move firstDir and its contents to secondDir
+
+cp <firstFile><secondFile> copies <firstFile> and makes it a new file <secondFile>
+
+cat <file> shows a files contents
+
+wget <address> will download a file from the web that is located at <address>
+
+chmod 777 myfile.txt will make myfile.txt readable, writeable and executable by all users on the system
+
+chgrp <groupname> <fileOrDirectory> changes the group ownership of <fileOrDirectory>
+
+	adding the -R flag applies a ch* command to all files and directories contained within that directory
+
+pwd shows you the present working directory
+
+grep <expression> <location> searches for <expression> in <location>
+
+
+
+man <program> display the manual for that program
+
+passwd change your current user's password
+
+to install a package on an RPM-based linux distribution you use the command yum install <packagename>
+	on a Debian-based linux distribution you use the command apt-get install <packagename>
+
+
+
+
+
+
+
